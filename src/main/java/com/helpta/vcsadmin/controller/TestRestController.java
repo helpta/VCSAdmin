@@ -15,6 +15,6 @@ public class TestRestController {
 
     @RequestMapping("/hello")
     public String hello(String name) {
-        return "hello " + name;
+        return "hello there," + name;
     }
 }
